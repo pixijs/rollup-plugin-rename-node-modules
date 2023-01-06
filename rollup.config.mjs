@@ -16,6 +16,6 @@ export default {
       exports: "auto",
     },
   ],
-  external: [...Object.keys(pkg.dependencies)],
+  external: [...Object.keys(pkg.dependencies), 'path'],
   plugins: [typescript()],
 };

@@ -1,4 +1,7 @@
-# rollup-plugin-rename-node-modules
+# @pixi/rollup-plugin-rename-node-modules
+
+> **Note**
+> This is a [fork](https://github.com/Lazyuki/rollup-plugin-rename-node-modules) _only_ for the purposes of publishing a stable version to support Rollup v3. If the original project publishes an update, this will be discontinued.
 
 🍣 A Rollup plugin to rename the `node_modules` created when bundling some external libries while using `preserveModules`
 
